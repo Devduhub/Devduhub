@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 195" width="350" height="195">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0015"/>
+      <stop offset="100%" style="stop-color:#1a0030"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="350" height="195" rx="12" fill="url(#bg)" stroke="#6d28d9" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="25" y="35" font-family="'Courier New', monospace" font-size="14" font-weight="bold"
+        fill="#06ffa5" filter="url(#glow)">💻 Most Used Languages</text>
+  <line x1="25" y1="45" x2="325" y2="45" stroke="#6d28d9" stroke-width="0.8" opacity="0.6"/>
+
+  <!-- Progress bar total -->
+  <rect x="25" y="60" width="300" height="10" rx="5" fill="#1a0030"/>
+  <!-- Python 60% -->
+  <rect x="25" y="60" width="180" height="10" rx="5" fill="#a855f7" filter="url(#glow)"/>
+  <!-- JS 25% -->
+  <rect x="205" y="60" width="75" height="10" rx="0" fill="#ec4899"/>
+  <!-- HTML 15% -->
+  <rect x="280" y="60" width="45" height="10" rx="0" fill="#06ffa5"/>
+
+  <!-- Legend -->
+  <circle cx="35" cy="95" r="6" fill="#a855f7" filter="url(#glow)"/>
+  <text x="48" y="100" font-family="'Courier New', monospace" font-size="12" fill="#ffffff">Python</text>
+  <text x="200" y="100" font-family="'Courier New', monospace" font-size="12" fill="#a855f7" font-weight="bold">60.00%</text>
+
+  <circle cx="35" cy="125" r="6" fill="#ec4899" filter="url(#glow)"/>
+  <text x="48" y="130" font-family="'Courier New', monospace" font-size="12" fill="#ffffff">JavaScript</text>
+  <text x="200" y="130" font-family="'Courier New', monospace" font-size="12" fill="#ec4899" font-weight="bold">25.00%</text>
+
+  <circle cx="35" cy="155" r="6" fill="#06ffa5" filter="url(#glow)"/>
+  <text x="48" y="160" font-family="'Courier New', monospace" font-size="12" fill="#ffffff">HTML</text>
+  <text x="200" y="160" font-family="'Courier New', monospace" font-size="12" fill="#06ffa5" font-weight="bold">15.00%</text>
+
+  <!-- Updating note -->
+  <text x="175" y="185" font-family="'Courier New', monospace" font-size="9"
+        fill="#555555" text-anchor="middle">atualiza conforme você contribui</text>
+</svg>

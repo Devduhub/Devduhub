@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 120" width="860" height="120">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0015"/>
+      <stop offset="100%" style="stop-color:#1a0030"/>
+    </linearGradient>
+    <filter id="glow-gold">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-green">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="860" height="120" rx="12" fill="url(#bg)" stroke="#6d28d9" stroke-width="1.5"/>
+
+  <!-- Trophy 1: First Commit -->
+  <text x="55" y="45" font-size="30" text-anchor="middle" filter="url(#glow-gold)">🏆</text>
+  <text x="55" y="68" font-family="'Courier New', monospace" font-size="9" fill="#fbbf24" text-anchor="middle" font-weight="bold">PRIMEIRO</text>
+  <text x="55" y="80" font-family="'Courier New', monospace" font-size="9" fill="#fbbf24" text-anchor="middle" font-weight="bold">COMMIT</text>
+  <text x="55" y="95" font-family="'Courier New', monospace" font-size="8" fill="#555555" text-anchor="middle">★★★★★</text>
+
+  <!-- Divider -->
+  <line x1="100" y1="20" x2="100" y2="100" stroke="#6d28d9" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- Trophy 2: First Repo -->
+  <text x="200" y="45" font-size="30" text-anchor="middle" filter="url(#glow-green)">🥇</text>
+  <text x="200" y="68" font-family="'Courier New', monospace" font-size="9" fill="#06ffa5" text-anchor="middle" font-weight="bold">PRIMEIRO</text>
+  <text x="200" y="80" font-family="'Courier New', monospace" font-size="9" fill="#06ffa5" text-anchor="middle" font-weight="bold">REPOSITÓRIO</text>
+  <text x="200" y="95" font-family="'Courier New', monospace" font-size="8" fill="#555555" text-anchor="middle">★★★★☆</text>
+
+  <line x1="250" y1="20" x2="250" y2="100" stroke="#6d28d9" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- Trophy 3: Early Bird -->
+  <text x="350" y="45" font-size="30" text-anchor="middle">🌟</text>
+  <text x="350" y="68" font-family="'Courier New', monospace" font-size="9" fill="#a855f7" text-anchor="middle" font-weight="bold">EARLY</text>
+  <text x="350" y="80" font-family="'Courier New', monospace" font-size="9" fill="#a855f7" text-anchor="middle" font-weight="bold">BIRD</text>
+  <text x="350" y="95" font-family="'Courier New', monospace" font-size="8" fill="#555555" text-anchor="middle">★★★☆☆</text>
+
+  <line x1="400" y1="20" x2="400" y2="100" stroke="#6d28d9" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- Trophy 4: Unlocking -->
+  <text x="500" y="45" font-size="30" text-anchor="middle" opacity="0.5">🔓</text>
+  <text x="500" y="68" font-family="'Courier New', monospace" font-size="9" fill="#555555" text-anchor="middle">DESBLOQUEIE</text>
+  <text x="500" y="80" font-family="'Courier New', monospace" font-size="9" fill="#555555" text-anchor="middle">CONTRIBUINDO</text>
+  <text x="500" y="95" font-family="'Courier New', monospace" font-size="8" fill="#333333" text-anchor="middle">☆☆☆☆☆</text>
+
+  <line x1="550" y1="20" x2="550" y2="100" stroke="#6d28d9" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- Trophy 5: Locked -->
+  <text x="650" y="45" font-size="30" text-anchor="middle" opacity="0.5">🔒</text>
+  <text x="650" y="68" font-family="'Courier New', monospace" font-size="9" fill="#555555" text-anchor="middle">DESBLOQUEIE</text>
+  <text x="650" y="80" font-family="'Courier New', monospace" font-size="9" fill="#555555" text-anchor="middle">COM STARS</text>
+  <text x="650" y="95" font-family="'Courier New', monospace" font-size="8" fill="#333333" text-anchor="middle">☆☆☆☆☆</text>
+
+  <line x1="700" y1="20" x2="700" y2="100" stroke="#6d28d9" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- Trophy 6: Locked -->
+  <text x="800" y="45" font-size="30" text-anchor="middle" opacity="0.5">🔒</text>
+  <text x="800" y="68" font-family="'Courier New', monospace" font-size="9" fill="#555555" text-anchor="middle">DESBLOQUEIE</text>
+  <text x="800" y="80" font-family="'Courier New', monospace" font-size="9" fill="#555555" text-anchor="middle">COM FOLLOWS</text>
+  <text x="800" y="95" font-family="'Courier New', monospace" font-size="8" fill="#333333" text-anchor="middle">☆☆☆☆☆</text>
+</svg>
