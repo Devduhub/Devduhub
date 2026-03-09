@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="900" height="280">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0015"/>
+      <stop offset="50%" style="stop-color:#1a0035"/>
+      <stop offset="100%" style="stop-color:#0a0015"/>
+    </linearGradient>
+
+    <!-- Neon glow filters -->
+    <filter id="glow-green">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-pink">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-purple">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-title">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Pulse animation gradient -->
+    <radialGradient id="pulse" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#6d28d9;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#0a0015;stop-opacity:0"/>
+      <animateTransform attributeName="gradientTransform" type="scale" values="1;1.5;1" dur="4s" repeatCount="indefinite"/>
+    </radialGradient>
+
+    <!-- Scanline pattern -->
+    <pattern id="scanlines" x="0" y="0" width="900" height="4" patternUnits="userSpaceOnUse">
+      <rect width="900" height="1" fill="#ffffff" opacity="0.02"/>
+    </pattern>
+
+    <!-- Grid pattern -->
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#6d28d9" stroke-width="0.3" opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="280" fill="url(#bg)"/>
+  <rect width="900" height="280" fill="url(#grid)"/>
+  <rect width="900" height="280" fill="url(#scanlines)"/>
+
+  <!-- Pulse aura behind title -->
+  <ellipse cx="450" cy="130" rx="300" ry="120" fill="url(#pulse)" opacity="0.6"/>
+
+  <!-- Floating particles -->
+  <circle cx="80" cy="40" r="2" fill="#06ffa5" filter="url(#glow-green)" opacity="0.8">
+    <animate attributeName="cy" values="40;20;40" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0.2;0.8" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="150" cy="200" r="1.5" fill="#ec4899" filter="url(#glow-pink)" opacity="0.7">
+    <animate attributeName="cy" values="200;180;200" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0.1;0.7" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="820" cy="60" r="2" fill="#a855f7" filter="url(#glow-purple)" opacity="0.8">
+    <animate attributeName="cy" values="60;40;60" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0.2;0.8" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="760" cy="220" r="1.5" fill="#06ffa5" filter="url(#glow-green)" opacity="0.7">
+    <animate attributeName="cy" values="220;200;220" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="300" cy="250" r="1" fill="#ec4899" opacity="0.6">
+    <animate attributeName="cy" values="250;230;250" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="30" r="1.5" fill="#a855f7" opacity="0.7">
+    <animate attributeName="cy" values="30;50;30" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="260" r="1" fill="#06ffa5" opacity="0.5">
+    <animate attributeName="cx" values="450;470;450" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Horizontal neon lines -->
+  <line x1="0" y1="1" x2="900" y2="1" stroke="#6d28d9" stroke-width="2" filter="url(#glow-purple)" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" repeatCount="indefinite"/>
+  </line>
+  <line x1="0" y1="279" x2="900" y2="279" stroke="#ec4899" stroke-width="2" filter="url(#glow-pink)" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2.5s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Side accent lines -->
+  <line x1="1" y1="0" x2="1" y2="280" stroke="#06ffa5" stroke-width="2" filter="url(#glow-green)" opacity="0.6"/>
+  <line x1="899" y1="0" x2="899" y2="280" stroke="#06ffa5" stroke-width="2" filter="url(#glow-green)" opacity="0.6"/>
+
+  <!-- Corner decorations -->
+  <polyline points="0,0 40,0 40,8" fill="none" stroke="#06ffa5" stroke-width="2" filter="url(#glow-green)"/>
+  <polyline points="900,0 860,0 860,8" fill="none" stroke="#06ffa5" stroke-width="2" filter="url(#glow-green)"/>
+  <polyline points="0,280 40,280 40,272" fill="none" stroke="#ec4899" stroke-width="2" filter="url(#glow-pink)"/>
+  <polyline points="900,280 860,280 860,272" fill="none" stroke="#ec4899" stroke-width="2" filter="url(#glow-pink)"/>
+
+  <!-- Glitch bars (animated) -->
+  <rect x="0" y="60" width="900" height="3" fill="#ec4899" opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0.15;0;0;0" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="60;60;60;80;60;60;60" dur="7s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="0" y="150" width="900" height="2" fill="#06ffa5" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.1;0;0;0.1;0" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Main title shadow/glow layer -->
+  <text x="450" y="118" font-family="'Courier New', monospace" font-size="64" font-weight="900"
+        fill="#6d28d9" text-anchor="middle" opacity="0.4" filter="url(#glow-title)">DEVDUHUB</text>
+
+  <!-- Main title -->
+  <text x="450" y="118" font-family="'Courier New', monospace" font-size="64" font-weight="900"
+        fill="url(#titleGrad)" text-anchor="middle" filter="url(#glow-title)">
+    <defs>
+      <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#a855f7"/>
+        <stop offset="40%" style="stop-color:#ffffff"/>
+        <stop offset="100%" style="stop-color:#ec4899"/>
+      </linearGradient>
+    </defs>
+    DEVDUHUB
+    <animate attributeName="opacity" values="1;0.85;1" dur="3s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="450" y="152" font-family="'Courier New', monospace" font-size="15"
+        fill="#06ffa5" text-anchor="middle" filter="url(#glow-green)" letter-spacing="6">
+    IA  &amp;  AUTOMAÇÃO  |  EDUARDO B.  |  BRASIL
+    <animate attributeName="opacity" values="1;0.6;1" dur="2s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Bottom status bar -->
+  <rect x="200" y="195" width="500" height="28" rx="4"
+        fill="none" stroke="#6d28d9" stroke-width="1" opacity="0.6"/>
+
+  <text x="225" y="214" font-family="'Courier New', monospace" font-size="11"
+        fill="#a855f7" opacity="0.9">STATUS:</text>
+  <text x="280" y="214" font-family="'Courier New', monospace" font-size="11"
+        fill="#06ffa5" filter="url(#glow-green)">
+    ONLINE
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="345" y="214" font-family="'Courier New', monospace" font-size="11" fill="#555">|</text>
+
+  <text x="360" y="214" font-family="'Courier New', monospace" font-size="11"
+        fill="#a855f7" opacity="0.9">MODO:</text>
+  <text x="405" y="214" font-family="'Courier New', monospace" font-size="11"
+        fill="#ec4899" filter="url(#glow-pink)">BEAST MODE</text>
+
+  <text x="500" y="214" font-family="'Courier New', monospace" font-size="11" fill="#555">|</text>
+
+  <text x="515" y="214" font-family="'Courier New', monospace" font-size="11"
+        fill="#a855f7" opacity="0.9">NÍVEL:</text>
+  <text x="562" y="214" font-family="'Courier New', monospace" font-size="11"
+        fill="#06ffa5">LENDÁRIO</text>
+
+  <!-- Decorative dots on status bar -->
+  <circle cx="212" cy="209" r="4" fill="#06ffa5" filter="url(#glow-green)">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Bottom tagline -->
+  <text x="450" y="258" font-family="'Courier New', monospace" font-size="11"
+        fill="#6d28d9" text-anchor="middle" letter-spacing="3" opacity="0.7">
+    「 CÓDIGO É ARTE. IA É PODER. AUTOMAÇÃO É O FUTURO. 」
+  </text>
+
+</svg>
