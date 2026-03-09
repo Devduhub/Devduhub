@@ -16,7 +16,7 @@
 
 Apaixonado por **IA e Automacao**, construindo agentes inteligentes e explorando como a tecnologia transforma negocios reais.
 
-Trabalho na **Antishock** (oficina mecanica) e estou em transicao de carreira para **IA & Automacao** - provando que qualquer pessoa pode aprender a programar!
+Trabalho na **Antishock** (oficina mecanica) e estou em transicao de carreira para **IA & Automacao** -
 
 ---
 
