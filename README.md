@@ -1,11 +1,9 @@
 <div align="center">
 
-<!-- HEADER SVG ANIMADO CUSTOM -->
-<img src="https://raw.githubusercontent.com/Devduhub/Devduhub/main/header.svg" width="100%" alt="Devduhub Header"/>
+<img src="https://raw.githubusercontent.com/Devduhub/Devduhub/main/header.svg" width="100%" alt="Header"/>
 
 <br/>
 
-<!-- TYPING — usando vercel que funciona no GitHub -->
 <img src="https://readme-typing-svg.vercel.app?font=Orbitron&weight=700&size=16&duration=2500&pause=800&color=06FFA5&center=true&vCenter=true&width=680&lines=🤖+Construindo+o+futuro+com+IA...;⚡+Automatizando+o+mundo+ao+redor...;💜+Apaixonado+por+tecnologia...;🚀+Always+learning%2C+always+evolving...;👾+DEVDUHUB+SYSTEM+—+ONLINE" alt="Typing" />
 
 <br/><br/>
@@ -96,10 +94,9 @@ class Eduardo:
 
 <br/>
 
-<!-- Stats usando github-readme-stats — deploy próprio no vercel funciona melhor -->
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=Devduhub&show_icons=true&theme=tokyonight&bg_color=0a0015&title_color=06ffa5&icon_color=ec4899&text_color=ffffff&border_color=6d28d9&count_private=true&border_radius=12&hide_border=false" />
+<img src="https://raw.githubusercontent.com/Devduhub/Devduhub/main/stats.svg" alt="Stats" />
 &nbsp;
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Devduhub&layout=compact&theme=tokyonight&bg_color=0a0015&title_color=06ffa5&text_color=ffffff&border_color=6d28d9&border_radius=12&hide_border=false" />
+<img src="https://raw.githubusercontent.com/Devduhub/Devduhub/main/langs.svg" alt="Languages" />
 
 <br/><br/>
 
@@ -116,7 +113,7 @@ class Eduardo:
 
 <br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Devduhub&theme=radical&no-bg=true&no-frame=false&column=6&margin-w=10&title=Stars,Commits,Repositories,Followers,Experience,Issues" />
+<img src="https://raw.githubusercontent.com/Devduhub/Devduhub/main/trophies.svg" width="100%" alt="Trophies" />
 
 </div>
 
@@ -179,7 +176,7 @@ class Eduardo:
 <br/><br/>
 
 > *"O código não é apenas lógica — é a linguagem do futuro."*
-> — **Devduhub** 👾
+> — **Devdu** 👾
 
 <br/>
 </div>
