@@ -179,7 +179,7 @@ class Eduardo:
 <br/><br/>
 
 > *"O código não é apenas lógica — é a linguagem do futuro."*
-> — **Devduhub** 👾
+> — **Devdu** 👾
 
 <br/>
 </div>
