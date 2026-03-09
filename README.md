@@ -1,26 +1,27 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0015,40:6d28d9,70:ec4899,100:06ffa5&height=280&section=header&text=Eduardo%20B.&fontSize=85&fontColor=ffffff&fontAlignY=42&desc=Devduhub%20%7C%20IA%20%26%20Automação%20%7C%20Brasil%20🇧🇷&descAlignY=62&descSize=20&animation=fadeIn&stroke=a855f7&strokeWidth=2" />
+<!-- HEADER SVG ANIMADO CUSTOM -->
+<img src="https://raw.githubusercontent.com/Devduhub/Devduhub/main/header.svg" width="100%" alt="Devduhub Header"/>
 
 <br/>
 
+<!-- TYPING -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=18&duration=2500&pause=800&color=06FFA5&center=true&vCenter=true&width=700&lines=🤖+Construindo+o+futuro+com+IA...;⚡+Automatizando+o+mundo+ao+redor...;💜+Apaixonado+por+tecnologia+e+anime...;🚀+Always+learning%2C+always+evolving...;👾+DEVDUHUB+SYSTEM+—+ONLINE" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=16&duration=2500&pause=800&color=06FFA5&center=true&vCenter=true&width=680&lines=🤖+Construindo+o+futuro+com+IA...;⚡+Automatizando+o+mundo+ao+redor...;💜+Apaixonado+por+tecnologia...;🚀+Always+learning%2C+always+evolving...;👾+DEVDUHUB+SYSTEM+—+ONLINE" />
 </a>
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/STATUS-ESTUDANDO-6d28d9?style=for-the-badge&labelColor=0a0015" />
-<img src="https://img.shields.io/badge/FOCO-IA%20%26%20AUTOMAÇÃO-ec4899?style=for-the-badge&labelColor=0a0015" />
-<img src="https://img.shields.io/badge/LOCAL-BRASIL-06ffa5?style=for-the-badge&labelColor=0a0015" />
-<img src="https://img.shields.io/badge/MODO-BEAST%20MODE%20ON-a855f7?style=for-the-badge&labelColor=0a0015" />
+![](https://img.shields.io/badge/STATUS-ESTUDANDO-6d28d9?style=for-the-badge&labelColor=0a0015)
+![](https://img.shields.io/badge/FOCO-IA%20%26%20AUTOMAÇÃO-ec4899?style=for-the-badge&labelColor=0a0015)
+![](https://img.shields.io/badge/LOCAL-BRASIL-06ffa5?style=for-the-badge&labelColor=0a0015)
+![](https://img.shields.io/badge/MODO-BEAST%20MODE-a855f7?style=for-the-badge&labelColor=0a0015)
 
 <br/><br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
-  <img alt="snake" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg"/>
+  <img alt="snake" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 </picture>
 
 </div>
@@ -28,16 +29,15 @@
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6d28d9,50:ec4899,100:06ffa5&height=3&width=85%25" />
-  <h2>👾 SOBRE MIM</h2>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:06ffa5,50:ec4899,100:6d28d9&height=3&width=85%25" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6d28d9,50:ec4899,100:06ffa5&height=3&width=85%25"/>
+<h2>👾 SOBRE MIM</h2>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:06ffa5,50:ec4899,100:6d28d9&height=3&width=85%25"/>
 </div>
 
 <br/>
 
 ```python
 class Eduardo:
-
     nome      = "Eduardo B."
     alias     = "Devduhub"
     origem    = "Brasil 🇧🇷"
@@ -45,24 +45,23 @@ class Eduardo:
     estudando = ["Python", "Machine Learning", "APIs"]
     objetivo  = "Transformar vidas com tecnologia 🚀"
     contato   = "eduardosilvapsn1@gmail.com"
-    linkedin  = "in/eduqalizado"
     modo      = "BEAST MODE: ATIVADO 🔥"
 
     atributos = {
-        "Determinação" : "██████████  ∞ / ∞   INFINITO ⚡",
-        "Criatividade" : "█████████░  950/1000  ÉPICO  💜",
-        "Python"       : "████████░░  820/1000  FORTE  🌸",
-        "IA & ML"      : "█████████░  900/1000  LENDA  🤖",
-        "JavaScript"   : "██████░░░░  600/1000  SUBINDO👾",
+        "Determinação" : "██████████  ∞/∞    INFINITO ⚡",
+        "IA & ML"      : "█████████░  900/1000  LENDA 🤖",
+        "Criatividade" : "█████████░  950/1000  ÉPICO 💜",
+        "Python"       : "████████░░  820/1000  FORTE 🌸",
+        "JavaScript"   : "██████░░░░  600/1000  SUBINDO 👾",
     }
 ```
 
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6d28d9,50:ec4899,100:06ffa5&height=3&width=85%25" />
-  <h2>⚔️ ARSENAL DE TECNOLOGIAS</h2>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:06ffa5,50:ec4899,100:6d28d9&height=3&width=85%25" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6d28d9,50:ec4899,100:06ffa5&height=3&width=85%25"/>
+<h2>⚔️ TECNOLOGIAS</h2>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:06ffa5,50:ec4899,100:6d28d9&height=3&width=85%25"/>
 
 <br/>
 
@@ -93,40 +92,40 @@ class Eduardo:
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6d28d9,50:ec4899,100:06ffa5&height=3&width=85%25" />
-  <h2>📊 ESTATÍSTICAS</h2>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:06ffa5,50:ec4899,100:6d28d9&height=3&width=85%25" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6d28d9,50:ec4899,100:06ffa5&height=3&width=85%25"/>
+<h2>📊 ESTATÍSTICAS</h2>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:06ffa5,50:ec4899,100:6d28d9&height=3&width=85%25"/>
 
 <br/>
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Devduhub&show_icons=true&bg_color=0a0015&title_color=06ffa5&icon_color=ec4899&text_color=ffffff&border_color=6d28d9&count_private=true&include_all_commits=true&border_radius=12" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Devduhub&layout=donut&bg_color=0a0015&title_color=06ffa5&text_color=ffffff&border_color=6d28d9&border_radius=12" />
+<img height="175" src="https://github-readme-stats.vercel.app/api?username=Devduhub&show_icons=true&bg_color=0a0015&title_color=06ffa5&icon_color=ec4899&text_color=ffffff&border_color=6d28d9&count_private=true&border_radius=12"/>
+<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Devduhub&layout=donut&bg_color=0a0015&title_color=06ffa5&text_color=ffffff&border_color=6d28d9&border_radius=12"/>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=Devduhub&background=0a0015&border=6d28d9&stroke=a855f7&ring=ec4899&fire=06ffa5&currStreakNum=ffffff&sideNums=06ffa5&currStreakLabel=ec4899&sideLabels=a855f7&dates=555555&border_radius=12" />
+<img src="https://streak-stats.demolab.com?user=Devduhub&background=0a0015&border=6d28d9&stroke=a855f7&ring=ec4899&fire=06ffa5&currStreakNum=ffffff&sideNums=06ffa5&currStreakLabel=ec4899&sideLabels=a855f7&dates=555555&border_radius=12"/>
 
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6d28d9,50:ec4899,100:06ffa5&height=3&width=85%25" />
-  <h2>🏆 CONQUISTAS</h2>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:06ffa5,50:ec4899,100:6d28d9&height=3&width=85%25" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6d28d9,50:ec4899,100:06ffa5&height=3&width=85%25"/>
+<h2>🏆 CONQUISTAS</h2>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:06ffa5,50:ec4899,100:6d28d9&height=3&width=85%25"/>
 
 <br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Devduhub&theme=radical&no-bg=true&column=6&margin-w=10" />
+<img src="https://github-profile-trophy.vercel.app/?username=Devduhub&theme=radical&no-bg=true&column=6&margin-w=10"/>
 
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6d28d9,50:ec4899,100:06ffa5&height=3&width=85%25" />
-  <h2>🌌 GRÁFICO DE ATIVIDADE</h2>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:06ffa5,50:ec4899,100:6d28d9&height=3&width=85%25" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6d28d9,50:ec4899,100:06ffa5&height=3&width=85%25"/>
+<h2>🌌 ATIVIDADE</h2>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:06ffa5,50:ec4899,100:6d28d9&height=3&width=85%25"/>
 
 <br/>
 
@@ -137,34 +136,34 @@ class Eduardo:
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6d28d9,50:ec4899,100:06ffa5&height=3&width=85%25" />
-  <h2>🎯 MISSÕES ATIVAS</h2>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:06ffa5,50:ec4899,100:6d28d9&height=3&width=85%25" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6d28d9,50:ec4899,100:06ffa5&height=3&width=85%25"/>
+<h2>🎯 MISSÕES ATIVAS</h2>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:06ffa5,50:ec4899,100:6d28d9&height=3&width=85%25"/>
 </div>
 
 <br/>
 
 ```
   QUEST LOG — SEASON 2026
-  ═══════════════════════════════════════════════════════
+  ════════════════════════════════════════════════════
 
-  🟣  Dominar Inteligência Artificial        [EM PROGRESSO]
-  🟣  Criar projetos reais de Automação      [EM PROGRESSO]
-  🟣  Construir portfólio no GitHub          [EM PROGRESSO]
-  ⬛  Contribuir para open-source            [PRÓXIMO]
-  ⬛  Lançar 1º produto com IA               [PRÓXIMO]
-  ⬛  Transformar vidas com tecnologia 🚀    [DESTINO FINAL]
+  🟣  Dominar Inteligência Artificial      [EM PROGRESSO]
+  🟣  Criar projetos reais de Automação    [EM PROGRESSO]
+  🟣  Construir portfólio no GitHub        [EM PROGRESSO]
+  ⬛  Contribuir para open-source          [PRÓXIMO]
+  ⬛  Lançar 1º produto com IA             [PRÓXIMO]
+  ⬛  Transformar vidas com tecnologia 🚀  [DESTINO FINAL]
 
   XP  ▰▰▰▰▰▰▰▰▰▰▰▰░░░░░░░░  62%  →  38% para o próximo nível
-  ═══════════════════════════════════════════════════════
+  ════════════════════════════════════════════════════
 ```
 
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6d28d9,50:ec4899,100:06ffa5&height=3&width=85%25" />
-  <h2>📡 CONEXÕES</h2>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:06ffa5,50:ec4899,100:6d28d9&height=3&width=85%25" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6d28d9,50:ec4899,100:06ffa5&height=3&width=85%25"/>
+<h2>📡 CONEXÕES</h2>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:06ffa5,50:ec4899,100:6d28d9&height=3&width=85%25"/>
 
 <br/>
 
@@ -174,8 +173,8 @@ class Eduardo:
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=Devduhub&color=6d28d9&style=for-the-badge&label=VISITAS+AO+PERFIL" />
-<img src="https://img.shields.io/github/followers/Devduhub?color=ec4899&style=for-the-badge&logo=github&label=SEGUIDORES" />
+<img src="https://komarev.com/ghpvc/?username=Devduhub&color=6d28d9&style=for-the-badge&label=VISITAS"/>
+<img src="https://img.shields.io/github/followers/Devduhub?color=ec4899&style=for-the-badge&logo=github&label=SEGUIDORES"/>
 
 <br/><br/>
 
@@ -183,7 +182,6 @@ class Eduardo:
 > — **Devduhub** 👾
 
 <br/>
-
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:06ffa5,33:a855f7,66:ec4899,100:0a0015&height=140&section=footer&text=Obrigado+pela+visita+✨&fontSize=20&fontColor=ffffff&animation=fadeIn&fontAlignY=65" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:06ffa5,33:a855f7,66:ec4899,100:0a0015&height=140&section=footer&text=Obrigado+pela+visita+✨&fontSize=20&fontColor=ffffff&animation=fadeIn&fontAlignY=65"/>
